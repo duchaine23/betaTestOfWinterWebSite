@@ -1,0 +1,222 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: small;
+    background-color: #0b1d3a;
+}
+ 
+.allcontent {
+    /* width: 800px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#header {
+    background-color: #172e4d;
+    margin: 5px 10px 0px 10px;  
+    
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+#snowman {
+    height: 108px; 
+    padding-left: 7px;
+}
+
+#main {
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+   
+    vertical-align: top;
+
+    background-color: #1f3a5f;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 120%;
+    color: #ff4d4d;
+}
+
+p, #player span {
+    color: #f2f7f3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.headingTree {
+   line-height: 1.8em;
+   text-align: center;
+}
+
+#treeImg {
+    height: 250px;
+}
+
+#NewYearImgs {
+    display: flex;
+    /* small indent between photos */
+    gap: 12px; 
+    margin-top: 10px;
+}
+
+#happynewyear {
+    display: block;
+    height: 120px;
+}
+
+#sidebar {
+    display: table-cell;
+    padding: 15px;
+    font-size: 105%;
+    vertical-align: top;
+    
+    background-color: #1f3a5f;
+}
+
+#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+#tableRow {
+    display: table-row;
+}
+
+
+#test {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+    color: #4dd17c;
+}
+
+#awd {
+    display: absolute;
+    height: 50px;
+    margin-left: 200px;
+    width: 100px;
+}
+
+#giftUp {
+    position: absolute;
+    top: 10px;
+    left: 365px;
+}
+
+#giftUp img {
+    width: 170px;
+    height: auto;
+}
+
+#countdown {
+    font-family: "Poppins", sans-serif;
+    font-size: 120%;
+    font-weight: 700;
+    color: #ff4d4d;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#left-sidebar {
+    display: table-cell;
+    background-color: #1f3a5f;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+
+    text-align: center;
+}
+
+#left-sidebar ol li {
+    color: #f2f7f3;
+    font-family: "Poppins", sans-serif;
+    font-family: 300;
+    font-style: normal;
+}
+
+.jokes {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.joke {
+    margin-bottom: 16px;
+}
+
+#question {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+#answer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    font-style: italic;
+
+    color: #4dd17c;
+}
+
+#gift-leftSideBar {
+    position: fixed;
+    top: 400px;
+    left: -25px;
+}
+
+#gift-leftSideBar a img {
+    border: none;
+    width: 110px;
+}
+
+#player {
+    margin-top: 30px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+#player button {
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+#player button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff4d4d;
+}
+
+#player span {
+    color: #4dd17c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#snowfall {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.snowflake {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    user-select: none;
+}
+
